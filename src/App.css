@@ -1,0 +1,93 @@
+
+*{
+ margin: 0px;
+}
+body, html{
+  background-image: url('./assets/countryside.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+input[type="text"]{
+  font-size: 29px;
+}
+.input-container1{
+  display: flex;
+  justify-content: center;
+}
+.input-container2 {
+  display: block;
+  width: 60%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-left: 0 auto;
+  margin-right:0 auto;
+  text-align: left;
+  color: black;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.btn-container2{
+  display: flex;
+  justify-content:center;
+}
+button.btn-container3 {  
+  padding-top: 0px;
+ 
+  width: 60%;
+  height: 60px;
+  color:gold;
+  font-size: 37px;
+  background-color: maroon;
+  border-radius: 5px 5px 5px 5px;
+}
+.location{
+  text-align:center;
+  padding-top: 10px;
+   color: orange;
+   font-size: 85px;
+}
+.date{
+  text-align: center;
+  color: black;
+  font-size: 65px;
+  font-style: italic;
+}
+div.temperature{
+  text-align: center;
+}
+span{
+  border-radius: 15px 15px 15px 15px;
+  height:14px;
+  color:aquamarine;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+
+
+ background-color: rgba(255,255,255,0.4);
+ background-size: 100% 60%;
+  font-size: 65px;        /*creates a shadow having structure like box behind text*/
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+
+}
+.weather{
+  text-align:center;
+  color: magenta;
+  font-size: 90px;
+  padding:0px;
+}
+@media screen and (max-width:270px){
+  .temperature{
+   width: 100%;
+   margin: auto;
+   display: block;
+  }
+}
