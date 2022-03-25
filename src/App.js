@@ -6,9 +6,8 @@ import './App.css';
 function App() {
 
 const apiKey = "2a498271d697734c4364455cc67533cb"
-const [inputCity, setInputCity] = useState('') //  
+const [inputCity, setInputCity] = useState('') // 
 const [data, setData] = useState({})    //usestatehook is used for state change
-
 
 const getWeatherDetails = (cityName) => {
   if(!cityName) return
@@ -47,8 +46,7 @@ const dateBuilder =(d) =>{
              <div className="input-container1">
              <input type ="text" className = "input-container2"  value={inputCity} onKeyPress = {handleSearch} onChange={handleChangeInput} placeholder="Enter location" />
                </div>
-             {/* <input type ="text" value={inputCity} onchange={event=>setInputCity(event.target.value)}      */}
-             <div className= 'btn-container1'>
+             {/* <input type ="text" value={inputCity} onchange={event=>setInputCity(event.target.value)}      */}             <div className= 'btn-container1'>
                <div className= 'btn-container2'>
                  <button className = 'btn-container3'onClick={handleSearch} >Search</button>
                </div>
@@ -69,7 +67,7 @@ const dateBuilder =(d) =>{
 
             <div className ="temperatureWeather-container">
               <div className = "temperature"><span >{Math.round((data?.main?.temp)-273.15)}°c</span></div>
-              <div className = 'weather'>{(data?.weather?.[0].description).toUpperCase()}</div>  
+              <div className = 'weather'>{(data?.weather?.[0].description).toUpperCase()}</div> 
             </div>          
            </div>
 
