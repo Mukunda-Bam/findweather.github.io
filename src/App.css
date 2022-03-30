@@ -11,6 +11,10 @@ body, html{
 }
 input[type="text"]{
   font-size: 29px;
+ color: aqua;
+}
+::placeholder {
+  color: red;
 }
 .input-container1{
   display: flex;
