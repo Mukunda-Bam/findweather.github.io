@@ -9,16 +9,34 @@ body, html{
   background-repeat: no-repeat;
   height: 100%;
 }
+@media (prefers-reduced-motion: no-preference) {
+  body, html{
+    animation-name: logopicture;
+    animation-iteration-count:infinite;
+    animation-duration: 5s ;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes logopicture {
+  from {
+    background-image: url('./assets/countryside.jpg');
+  }
+  to {
+    background-image: url('./assets/city.jpg');
+  }
+}
+
 input[type="text"]{
   font-size: 29px;
- color: aqua;
-}
-::placeholder {
-  color: red;
+  color: aqua;
 }
 .input-container1{
   display: flex;
   justify-content: center;
+}
+::placeholder {
+  color: red;
 }
 .input-container2 {
   display: block;
@@ -81,6 +99,40 @@ span{
   font-size: 65px;        /*creates a shadow having structure like box behind text*/
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
 
+}
+@media (prefers-reduced-motion: no-preference) {
+  div.temperature{
+    animation-name: logo;
+    animation-iteration-count:infinite;
+    animation-duration: 15s ;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .weather{
+    animation-name: logo;
+    animation-iteration-count:infinite;
+    animation-duration: 30s ;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .weather{
   text-align:center;
