@@ -1,7 +1,7 @@
 # React- Weather Finder 
 
 ![readmeweatherfinder2](https://user-images.githubusercontent.com/73714951/174257792-3b5d605e-0c7d-4573-bea2-de0db638dc1c.png)
-                                                           <p font-size='20px'>Weather Web App made in React</p>
+                                                           <p font-size='20px'>Weather Web App made in React</p>{font-size: 30px;}
 
 
 
