@@ -1,7 +1,7 @@
 # React- Weather Finder 
 
 ![readmeweatherfinder2](https://user-images.githubusercontent.com/73714951/174257792-3b5d605e-0c7d-4573-bea2-de0db638dc1c.png)
-                                                           **Weather Web App made in React
+                                                           **Weather Web App made in React**
 
 
 
