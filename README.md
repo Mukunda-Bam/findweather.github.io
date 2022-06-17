@@ -1,2 +1,2 @@
-# Project Decription
-## A react JS project using API
+# React- weather finder 
+readmeweatherfinder1.png
