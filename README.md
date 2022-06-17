@@ -2,6 +2,7 @@
 
 ![readmeweatherfinder2](https://user-images.githubusercontent.com/73714951/174257792-3b5d605e-0c7d-4573-bea2-de0db638dc1c.png)
 Weather Web App made in React
+![pin (3)](https://user-images.githubusercontent.com/73714951/174261134-edec70b1-18f0-4e9f-9001-2d7c0ac5d02d.png)
 
 ![pin (2)](https://user-images.githubusercontent.com/73714951/174260611-261e9746-7923-4539-84bd-62d4c99d4fd5.png)
 ![pin](https://user-images.githubusercontent.com/73714951/174260620-c5e9ad50-e1ca-4cd1-b48f-f174ea3a0107.svg)
