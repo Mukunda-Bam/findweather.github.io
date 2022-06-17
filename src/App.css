@@ -1,23 +1,23 @@
 
 *{
  margin: 0px;
-}
-body, html{
+} 
+html{
   background-image: url('./assets/countryside.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:  no-repeat;
   height: 100%;
+  overflow: hidden;
 }
 @media (prefers-reduced-motion: no-preference) {
-  body, html{
+   html{
     animation-name: logopicture;
     animation-iteration-count:infinite;
     animation-duration: 5s ;
     animation-timing-function: linear;
   }
 }
-
 @keyframes logopicture {
   from {
     background-image: url('./assets/countryside.jpg');
@@ -61,7 +61,6 @@ input[type="text"]{
 }
 button.btn-container3 {  
   padding-top: 0px;
- 
   width: 60%;
   height: 60px;
   color:gold;
@@ -92,8 +91,6 @@ span{
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 20px;
-
-
  background-color: rgba(255,255,255,0.4);
  background-size: 100% 60%;
   font-size: 65px;        /*creates a shadow having structure like box behind text*/
