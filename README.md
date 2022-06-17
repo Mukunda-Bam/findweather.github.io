@@ -10,4 +10,4 @@ In this app, one can find the temperature and weather conditions of a location. 
 <img src='images/pinv.png' alt='not found' width='25px' height='25px'/>**LIVE LINK** 
 **https://cityweatherfinder.herokuapp.com/**
 
-<p align="center">THANK YOU</p>
+<p align="center">THANK YOU!</p>
