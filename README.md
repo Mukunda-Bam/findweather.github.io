@@ -4,9 +4,13 @@
 
 <img src='images/pin.png' alt='not found' width='25px' height='25px'/>**DESCRIPTION**
 ____________
-In this app, one can find the temperature and weather conditions of a location. The location should be a city name. When a user enters a city name and hits enter or clicks on search, it displays the country where the city is located, along with the city name, the temperature in Celsius, and the weather condition in that particular city. While one can see the current date all the time.
-I have used axios library to make the HTTP request to external service. In this case, the external service is OpenWeatherMap API. Here the device's location: lattitude and longitude. This data: device location is sent to the API via the the API key. The API key is used to authenticate our application. The API key is unique here. The API will then return us the required data: temperature, location of the city and weather in JSON format. So, the API collects the data and returns the data whenever user enters city name to find the weather. This weather API gives the data in easy to understand form.
-Functional components of React have been used here. The useState hook here allows the addition/use of state in functional components. The usestate makes the use of different values of data from these array, object, number, boolean and string. In this app, useState hook makes the use of state of the object: data and string: city. 
+In this app, one can find the temperature and weather conditions of a location. The location should be a city name. When a user enters a city name and hits enter or clicks on search, it displays the country where the city is located, along with the city name, the temperature in Celsius, and the weather condition in that particular city. While one can see the current date all the time.
+
+I have used the axios library to make the HTTP request to an external service. In this case, the external service is the OpenWeatherMap API. Here is the device's location: city name is sent to the API via the API key. The API key is used to authenticate our application and is unique here. The API will then return us the required data: temperature, location of the city and weather in JSON format: temperature, location of the city and weather. So, the API collects the data and returns the data whenever a user enters the city name to find the weather. This weather API gives the data in an easy-to-understand form. Then I accessed each part of the returned JSON data from API response and used it to display the temperature and weather on the screen.
+
+Functional components of React have been used here. The useState hook here allows the addition/use of state in functional components. The usestate makes use of different values of data from arrays, objects, numbers, booleans, and strings. I used get request using get keyword to get the data from API and then method to ahndle the asynchronous API calls. Then I used the setData hook to store our result in data object. In this app, the useState hook makes use of the state of the object: data and string: city. While the error boundary catches any error that appears during this process.
+
+
 
 ![readmeweatherfinder1](https://user-images.githubusercontent.com/73714951/174257518-ff28204a-27f5-4c5e-9d12-0399314eb0bc.png)  
 
