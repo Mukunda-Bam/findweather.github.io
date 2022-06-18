@@ -13,7 +13,7 @@ Then I accessed each part of the returned JSON data from API response and used i
 
 Functional components of React have been used here. The useState hook here allows the addition/use of state in functional components. The usestate makes use of different values of data from arrays, objects, numbers, booleans, strings, etc. I used get request using get keyword to get the data from API and then method to handle the asynchronous API calls. Then I used the setData hook to store our result in data object. In this app, the useState hook makes use of the state of the object: data and string: city. While the error boundary catches any error that appears during this process.
 
-##### Library used: JSON, axios
+# Library used: JSON, axios
 
 
 
