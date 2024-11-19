@@ -3,20 +3,21 @@
   "homepage": "https://Mukunda-python.github.io/findweather",
   "version": "0.1.0",
   "private": true,
-   "engines": {
-    "node": "18.x"
+  "engines": {
+    "node": "v20.12.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.26.0",
-    "firebase": "^9.6.10",
+    "axios": "^1.7.7",
+    "firebase": "^11.0.2",
     "parse": "^3.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "source-map-resolve": "^0.6.0",
+    "weatherapp": "file:",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
