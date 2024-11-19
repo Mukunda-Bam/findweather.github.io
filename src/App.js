@@ -26,10 +26,12 @@ const handleChangeInput = (e)=>{
 const handleSearch =() =>{       
   getWeatherDetails(inputCity)
   }
-// useEffect(()=>{getWeatherDetails("paris")}, [])
-
-
-
+const handleKeyDown =(e) =>{
+  if(e.key==='Enter'){
+    handleSearch();
+  }
+}
+  
 const dateBuilder =(d) =>{
   let months=['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -44,7 +46,7 @@ const dateBuilder =(d) =>{
       <main>
            <div className ='input-button-container'>
              <div className="input-container1">
-             <input type ="text" className = "input-container2"  value={inputCity} onKeyPress = {handleSearch} onChange={handleChangeInput} placeholder="Enter location" />
+             <input type ="text" className = "input-container2"  value={inputCity} onKeyDown = {handleKeyDwown} onChange={handleChangeInput} placeholder="Enter location" />
                </div>
              {/* <input type ="text" value={inputCity} onchange={event=>setInputCity(event.target.value)}      */}             <div className= 'btn-container1'>
                <div className= 'btn-container2'>
