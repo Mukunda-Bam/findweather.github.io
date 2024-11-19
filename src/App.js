@@ -46,7 +46,7 @@ const dateBuilder =(d) =>{
       <main>
            <div className ='input-button-container'>
              <div className="input-container1">
-             <input type ="text" className = "input-container2"  value={inputCity} onKeyDown = {handleKeyDwown} onChange={handleChangeInput} placeholder="Enter location" />
+             <input type ="text" className = "input-container2"  value={inputCity} onKeyDown = {handleKeyDown} onChange={handleChangeInput} placeholder="Enter location" />
                </div>
              {/* <input type ="text" value={inputCity} onchange={event=>setInputCity(event.target.value)}      */}             <div className= 'btn-container1'>
                <div className= 'btn-container2'>
