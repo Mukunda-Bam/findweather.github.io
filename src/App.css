@@ -60,13 +60,14 @@ input[type="text"]{
   justify-content:center;
 }
 button.btn-container3 {  
-  padding-top: 0px;
+  margin-top: 10px;
   width: 60%;
+ margin-left:5px;
   height: 60px;
   color:gold;
   font-size: 37px;
   background-color: maroon;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 .location{
   text-align:center;
